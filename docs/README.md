@@ -26,7 +26,7 @@
 - Ruby
 - TypeScript
 - JavaScript
-- Go (学習中)
+- Go (学習中）
 
 ### クラウド
 
@@ -67,7 +67,7 @@
 - Circle CI
 - GitHub CI
 - Docker
-- redis
+- Redis
 - nginx
 - capistrano
 - webpack
