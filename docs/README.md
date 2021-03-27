@@ -4,7 +4,7 @@
 
 |key|value|
 |---|---|
-|氏名|宮本達朗（Miyamoto Tatsuro)|
+|氏名|宮本 達朗（Miyamoto Tatsuro)|
 |生年月日|1998/01/30(23 歳）|
 |居住地|東京都|
 |英語力|TOEIC 785 点|
