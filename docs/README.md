@@ -6,7 +6,7 @@
 |---|---|
 |氏名|tatsurom|
 |生年月日|1998/01/30|
-|Zenn|https://zenn.dev/tatsurom|
+|Zenn|[tatsurom](https://zenn.dev/tatsurom)|
 
 ---
 
