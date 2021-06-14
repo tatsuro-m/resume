@@ -8,6 +8,7 @@
 |生年月日|1998/01/30(23 歳）|
 |居住地|東京都|
 |英語力|TOEIC 785 点|
+|GitHub|[tatsuro-m](https://github.com/tatsuro-m)|
 |Zenn|[tatsurom](https://zenn.dev/tatsurom)|
 |趣味|NBA 観戦、読書、プログラミング|
 
