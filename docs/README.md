@@ -2,23 +2,26 @@
 
 ## 基本情報
 
-|key|value|
-|---|---|
-|氏名|宮本 達朗（Miyamoto Tatsuro)|
-|生年月日|1998/01/30(23 歳）|
-|居住地|東京都|
-|英語力|TOEIC 785 点|
-|GitHub|[tatsuro-m](https://github.com/tatsuro-m)|
-|Zenn|[tatsurom](https://zenn.dev/tatsurom)|
-|趣味|NBA 観戦、読書、プログラミング|
+|key| value                                     |
+|---|-------------------------------------------|
+|氏名| 宮本 達朗（Miyamoto Tatsuro)                   |
+|生年月日| 1998/01/30                                |
+|居住地| 東京都                                       |
+|英語力| TOEIC 785 点                               |
+|GitHub| [tatsuro-m](https://github.com/tatsuro-m) |
+|Zenn| [tatsurom](https://zenn.dev/tatsurom)     |
+|趣味| NBA 観戦、読書、プログラミング                         |
 
 ---
 
 ## 保有スキル
 
+- GCP アーキテクチャ設計・開発・運用
 - AWS アーキテクチャ設計・開発・運用
-- Ruby on Rails によるサーバーサイド開発
-- TypeScript + React での基本的なフロントエンド開発
+- Kubernetes 設計・開発・運用
+- Terraform による効果的な IaC
+- Go によるサーバーサイド開発
+- TypeScript + Next.js での基本的なフロントエンド開発
 - アジャイル、スクラムの進行
 
 ---
@@ -27,12 +30,32 @@
 
 ### 言語
 
-- Ruby
+- Go
 - TypeScript
 - JavaScript
-- Go
+- Ruby
 
 ### クラウド
+#### GCP
+- IAM
+- GKE
+- Container Registry
+- Artifact Registry
+- Cloud Build
+- Cloud Logging
+- GCE
+- Cloud Storage
+- Cloud SQL
+- CloudDNS
+- GoogleBigQuery
+- Cloud Load Balancing
+- Identity-Aware Proxy
+- Cloud Functions
+- CloudPub/Sub
+- Cloud Scheduler
+- Cloud Tasks
+- Cloud Source Repositories
+- Cloud Shell
 
 #### AWS
 
@@ -62,152 +85,90 @@
 
 ### フレームワーク・その他
 
-- Ruby on Rails
+- GraphQL
+- Kubernetes
+- Datadog
+- gRPC
+- Auth0
+- Firebase Authentication
+- [gqlgen](https://github.com/99designs/gqlgen)
+- Next.js
+- Terraform
+- Argo CD
+- [gin](https://github.com/gin-gonic/gin)
+- Apollo client
+- GitHub Actions
 - React
 - Vue.js
 - AWS SAM
-- Terraform
 - GitLab
 - GitLab CI
 - Circle CI
-- GitHub CI
 - Docker
 - Redis
 - nginx
-- capistrano
 - webpack
+- Asana
 - Redmine
+- Ruby on Rails
 
 ---
 
 ## 業務経歴
+### [vivit 株式会社](https://vivit.co.jp/) （2021/09 ~ 現在）
 
-### Web アプリケーション受託開発会社（2020/04〜現在）
+#### 展開している事業
+アウトドアに関する事業を多方面に展開するベンチャー企業です。  
+主な事業
+- [hinata](https://hinata.me/)
+- [hinata rental](https://hinata-rental.me/)
+- [hinata spot](https://hinata-spot.me/)
+- [hinata reuse](https://www.hinatareuse.jp/)
+- [hinata store](https://hinatastore.jp/)
 
-#### 小規模な自治体向けのワクチン摂取予約システム新規開発（2021/04 ~ 2021/05）
+#### チームの規模感
+全社では 60 ~ 70 人ほどで、エンジニアは約15人です。
 
-[プロジェクト概要]  
-小規模な自治体向けに、ワクチン摂取の予約システムを新規開発。
+#### 参考リンク
+- [技術ブログ](https://vivit.hatenablog.com/)
+- [Wantedly](https://en-jp.wantedly.com/companies/vivit)
 
-[プロジェクト規模]  
-3 人
+#### ロール
+主に全事業を横断して SRE を担当しています。インフラは主に GCP を利用しており、GKE が中心です。  
+Kubernetes や GitOps、 Terraform 、Datadog などを使って事業全般の技術基盤を構築・運用するのが仕事です。
 
-[担当業務]
+Go を使ってバックエンドのコードを書くこともあります。
 
-- 要件定義
-- Vue.js を使用したフロントエンド開発
-- Ruby on Rails を使った管理画面の作成
-- Ruby on Rails を使った API の作成
-- 認証機能の作成
-- ユニットテスト
-- アジャイル
+#### 担当した主な仕事
+- Datadog の Terraform 化
+- マイクロサービスアーキテクチャ設計
+- 認証、認可設計
+- 各チームの技術的な相談を受ける
+- GitOps 整備
+- [kubernetes-external-secrets](https://github.com/external-secrets/kubernetes-external-secrets) 基盤導入によるセキュリティ向上
+- 障害対応
+- SLO 設定、運用
 
-#### 農業IoT Webサービスの新規開発・運用（2020/07 ~ 現在）
+### Web アプリケーション受託開発会社（2020/04〜2021/08）
 
-[プロジェクト概要]  
-圃場の各地に配置されたラズパイから定期的に飛んでくるセンサー情報を AWS の中で保存、処理。   
-ブラウザから農業に必要なデータを時系列で確認できるアプリケーションの開発。
-
-[プロジェクト規模]  
-6 ~ 8 人
-
-[担当業務]
-
-- クラウドアーキテクチャの設計
-- インフラのコード化（IaC)
-- アジャイル推進
-- DevOps 推進
-- SAM によるサーバーレスアーキテクチャの実装
-- SES によるメール通知基盤の設計、構築
-- SNS, CloudWatch メトリクスによる異常検知基盤の構築
-- Vue.js によるフロントエンド開発
-- SSL 化、独自ドメインの設定
-- CloudFront + S3 による静的リソース配信基盤の構築
-- NoSQL(Dynamo DB )データベースのテーブル設計
-- Ruby on Rails を使った管理画面の作成
-- EC2 サーバーの設定
-- アプリケーションの Docker（コンテナ）化
-- 静的解析ツールの導入（ESLint, rubocop）
-- AWS のランニングコスト削減
-- アプリケーションの高速化
-- バッチ処理の設計・実装
-- 統合テスト
-
-#### 医療介護系アプリケーションの新規開発（要件定義）(2020/11 ~ 2021/01)
-
-[プロジェクト概要]  
-介護現場で使用される介護記録アプリケーションの要件定義。
-
-[プロジェクト規模]  
-3 人
-
-[担当業務]
-
-- 業務フローのヒアリング
-- 要件定義書の作成
-- React + TypeScript を使ってのモックアプリケーション全体の作成
-
-#### 不動産管理アプリケーションの機能追加・改修（2020/10 ~ 2020/11)
-
-[プロジェクト概要]  
-アメリカのスタートアップ企業の不動産管理アプリ（アメリカ人向け）に対する機能追加・改修。  
-アプリケーションは Ruby on Rails を中心に作られている。
-
-[プロジェクト規模]  
-2 人
-
-[担当業務]
-
-- 機能拡張
-- UX の改善
-
-#### 食生活の実態調査システムの機能追加・保守（2020/06 ~ 2020/08)
-
-[プロジェクト概要]  
-独立行政法人が行っている食事調査内容を記録、分析する Web システムの機能追加・保守。  
-アプリケーションは Ruby on Rails で作られている。
-
-[プロジェクト規模]  
-2 人
-
-[担当業務]
-
-- 機能拡張
-- バグ修正
-- 顧客に対してのデモの実施
-
-#### バッテリーマネジメントシステムの機能追加・改修（2020/04 ~ 2020/06)
-
-[プロジェクト概要]  
-EV(電気自動車）のバッテリーマネジメントシステムの機能追加・改修。  
-アプリケーションは Ruby で作られている。
-
-[プロジェクト規模]  
-6 人
-
-[担当業務]
-
-- 要件定義
 - 機能拡張
 
 ## 自己PR
 
-実務経験年数としてはそれほど長くはありませんが、チームの方々に助けられながら設計から実装、運用まで一通りのことを経験できました。  
-新規開発を 0 から運用まで担当した経験があります。  
-バックエンド、クラウド技術が得意であり、特にその領域でチームに貢献できます。  
-現在は [zenn](https://zenn.dev/tatsurom) でのアウトプットも意識しながら Go 言語での開発に楽しさを感じ、日々学習しております。  
+実務経験年数はそれほど長くはありませんが、チームの方々に助けられながら設計から実装、運用まで一通りのことを経験できました。  
+主に Kubernetes や クラウド技術、バックエンド開発などが得意であり、それらでチームに貢献できます。  
+現在は SRE として事業全体をエンジニアの観点から俯瞰して様々な業務に取り組んでいます。
 技術を楽しむことを忘れずに、これからも新しい技術の習得に積極的に取り組んでいきます。
 
 ## 意欲・興味
 
 - 比較的少人数のチームで短いリリースサイクルを繰り返して改善していく開発スタイルを好みます
-- AWS を始めとしたクラウド技術に興味があります
-- 主にバックエンドのタスクを好みます
+- クラウドネイティブな基盤での開発を好みます
+- Go を使ったバックエンドの開発を好みます
 - 新しい技術への学習意欲が高いです
 
 ## 希望条件
-
-- Go を利用した開発を好みます
-- AWS, GCP 等のクラウド技術を活用した開発を好みます
+- GCP, AWS 等のクラウド技術を活用した開発を好みます
+- Kubernetes などのコンテナを利用した開発を好みます
 - toC, toB に関わらず、自社サービスの開発を好みます
 - リモート、出社は特にこだわりません
